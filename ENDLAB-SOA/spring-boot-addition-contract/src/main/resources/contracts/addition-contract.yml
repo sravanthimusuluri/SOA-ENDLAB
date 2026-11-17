@@ -1,0 +1,13 @@
+request:
+  method: GET
+  url: /ms1/add
+  queryParameters:
+    a: "5"
+    b: "10"
+
+---
+response:
+  status: 200
+  headers:
+    Content-Type: "text/plain;charset=UTF-8"
+  body: "MS Addition = 15"
